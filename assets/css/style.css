@@ -1,11 +1,12 @@
 
 body {
-    Background-image:'assets/images/silver_scales_@2x.png';
+    background-image:"images/silver_scales.png";
     background-repeat: repeat;
     background-size: fill;
 }
 
 .wrapper_index{
+    display: block;
     width: 960px;
     justify-content: center;
 }
