@@ -1,6 +1,6 @@
 
 body {
-    background-image:"images/silver_scales.png";
+    background-image:"Basic_Portfolio/assets/images/silver_scales.png";
     background-repeat: repeat;
     background-size: fill;
 }
@@ -9,4 +9,9 @@ body {
     display: block;
     width: 960px;
     justify-content: center;
+}
+
+h1{
+    color: white;
+    background-color: #4aaaa5;
 }
