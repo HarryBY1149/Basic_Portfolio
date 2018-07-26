@@ -1,17 +1,43 @@
-
 body {
-    background-image:"Basic_Portfolio/assets/images/silver_scales.png";
-    background-repeat: repeat;
-    background-size: fill;
+    background: url(C://Users/Harry/Desktop/Projects/Basic_Portfolio/assets/images/silver_scales/silver_scales_@2X.png); 
 }
-
-.wrapper_index{
+ 
+header {
+    background-color: white;
     display: block;
-    width: 960px;
-    justify-content: center;
+    height: 1fr;
 }
 
-h1{
+ h1  {
     color: white;
     background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width: 25%;
+    height: fill;
+    float: left;
+ 
+}
+
+header button{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    float: right;
+    position: absolute;
+}
+
+.content {
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: auto;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+img {
+    width: 169px;
+    height: 128px; 
+    float: left;
 }
