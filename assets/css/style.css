@@ -1,3 +1,5 @@
+
+/* General Styling */
 body {
     background: url(C://Users/Harry/Desktop/Projects/Basic_Portfolio/assets/images/silver_scales/silver_scales_@2X.png); 
     margin: 0;
@@ -82,6 +84,8 @@ p {
     padding: 10px;    
 }
 
+/* Styling for About page */
+
 .content p {
     font-size: 20px;
 }
@@ -93,6 +97,8 @@ p {
     margin-top: 5px;
     padding: 10px;
 }
+
+/* Styling for portfolio */
 
 img {
     width: 260px;
@@ -124,6 +130,47 @@ img {
     font-size: 48px;
 }
 
+/* styling for contact page */
+
+.contact  {
+    height: 900px;
+}
+
+.contact .content {
+    height: 650px;
+}
+input{
+    width: 900px;
+    padding: 8px;
+}
+
+.contact p {
+    padding: 0;
+    margin-bottom: 4px;
+}
+
+textarea {
+    height: 200px;
+    width: 916px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    text-decoration: none;
+    height: 41px;
+    width: 115px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#submit:hover {
+    background-color: #ffffff;
+    color: #4aaaa5;
+}
+
+/* styling for sticky footer */
 footer {
     position: fixed;
     left: 0;
